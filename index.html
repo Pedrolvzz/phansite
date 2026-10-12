@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phansite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img
+        src="imagens/logo.png"
+        alt=""
+        class="logo"
+        >
+
+        <h1 class="titulo-site" aria-label="Phantom Aficionado Website">
+            <span class="palavra" aria-hidden="true">
+                <span>P</span><span>h</span><span>a</span><span>n</span><span>t</span><span>o</span><span>m</span>
+            </span>
+
+            <span class="palavra" aria-hidden="true">
+                <span>A</span><span>f</span><span>i</span><span>c</span><span>i</span><span>o</span><span>n</span><span>a</span><span>d</span><span>o</span>
+            </span>
+
+            <span class="palavra" aria-hidden="true">
+                <span>W</span><span>e</span><span>b</span><span>s</span><span>i</span><span>t</span><span>e</span>
+            </span>
+        </h1>
+    </header>
+
+    <div class="posteres" aria-hidden="true">
+        <img
+        src="imagens/take-your-heart.png"
+        class="poster poster-esquerdo"
+        alt=""
+    >
+
+        <img
+        src="imagens/poster.png"
+        class="poster poster-direito"
+        alt=""
+    
+    >
+    </div>
+
+    <aside class="aviso-forum">
+        <span>Fórum Phantom</span>
+        <stron>em breve!</stron>
+    </aside>
+
+
+    <main>
+        <h2 class="recortes" aria-label="Pergunta do dia">
+            <span aria-hidden="true">
+                <span>P</span><span>e</span><span>r</span><span>g</span><span>u</span><span>n</span><span>t</span><span>a</span>
+                </span>
+                <span aria-hidden="true">
+                    <span>d</span><span>o</span>
+                </span>
+                <span aria-hidden="true">
+                    <span>d</span><span>i</span><span>a</span>
+                </span>
+
+                </h2>
+
+        <section class="votacao">
+  <div class="cabecalho-votacao">
+    <span class="marca-q" aria-hidden="true">Q</span>
+
+    <div class="pergunta-votacao">
+      <span class="marca-phansite">PHAN-SITE</span>
+      <h3>Você acredita nos Phantom Thieves?</h3>
+    </div>
+  </div>
+
+  <div class="resultado-votacao">
+    <div class="barra">
+      <div class="preenchimento"></div>
+    </div>
+
+    <p class="porcentagem">Sem votos</p>
+  </div>
+
+  <div class="botoes">
+  <button type="button" id="votar-sim" aria-label="Sim">
+    <span aria-hidden="true">S</span>
+    <span aria-hidden="true">i</span>
+    <span aria-hidden="true">m</span>
+  </button>
+
+  <button type="button" id="votar-nao" aria-label="Não">
+    <span aria-hidden="true">N</span>
+    <span aria-hidden="true">ã</span>
+    <span aria-hidden="true">o</span>
+  </button>
+</div>
+
+        <section class="comentarios">
+        <h2 class="recortes" aria-label="Deixe seu comentario">
+            <span aria-hidder="true">
+                <span>D</span><span>e</span><span>i</span><span>x</span><span>e</span>
+            </span>
+            <span aria-hidden="true">
+            <span>s</span><span>e</span><span>u</span>
+            </span>
+            <span aria-hidden="true">
+                <span>c</span><span>o</span><span>m</span><span>e</span><span>n</span><span>t</span><span>á</span><span>r</span><span>i</span><span>o</span>
+            </span>
+        </h2>
+            <form id="form-comentario">
+                <label for="texto-comentario">Sua mensagem</label>
+
+                <textarea
+                id="texto-comentario"
+                placeholder="Conte o que você pensa sobre os Phantom Thieves..."
+                maxlength="300"
+                required
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <div id="lista-comentarios"></div>
+            </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
