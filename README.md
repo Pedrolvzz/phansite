@@ -1,5 +1,9 @@
 # Phansite — Persona 5 Royal
 
+**HTML · CSS · JavaScript** · [**Ver projeto ↗**](https://pedrolvzz.github.io/phansite/)
+
+![Tela do Phansite com votação e formulário de comentários](./docs/preview.jpg)
+
 Um site de fã inspirado no **Phantom Aficionado Website**, conhecido como **Phansite**, de *Persona 5 Royal*. Desenvolvido como um projeto de aprendizado de HTML, CSS e JavaScript, para compartilhar com amigos.
 
 ## A inspiração
@@ -34,7 +38,7 @@ A votação começa sem votos. A porcentagem exibida representa a proporção de
 
 ## Como executar
 
-Baixe os arquivos do repositório e abra o `index.html` no navegador.
+[Abra a versão publicada](https://pedrolvzz.github.io/phansite/) ou baixe os arquivos do repositório e abra o `index.html` no navegador.
 
 Mantenha esta estrutura para que os estilos, scripts e imagens carreguem corretamente:
 
